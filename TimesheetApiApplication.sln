@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetApiApplication", "TimesheetApiApplication\TimesheetApiApplication.csproj", "{66EFABEE-2641-4CFF-921E-C257D284BB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetApiApplication.Tests", "TimesheetApiApplication.Tests\TimesheetApiApplication.Tests.csproj", "{ED3FB70F-31DE-4A10-A0F1-22F91FAD82B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EFABEE-2641-4CFF-921E-C257D284BB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EFABEE-2641-4CFF-921E-C257D284BB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EFABEE-2641-4CFF-921E-C257D284BB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EFABEE-2641-4CFF-921E-C257D284BB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3FB70F-31DE-4A10-A0F1-22F91FAD82B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3FB70F-31DE-4A10-A0F1-22F91FAD82B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3FB70F-31DE-4A10-A0F1-22F91FAD82B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3FB70F-31DE-4A10-A0F1-22F91FAD82B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
