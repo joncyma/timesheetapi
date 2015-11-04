@@ -14,6 +14,7 @@ using TimesheetApiApplication.Models;
 
 namespace TimesheetApiApplication.Controllers
 {
+    [EnableCors(origins:"*", headers:"*", methods:"*")]
     public class TimesheetsController : ApiController
     {
         private TimesheetContext db = new TimesheetContext();
