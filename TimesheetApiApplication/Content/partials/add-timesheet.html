@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-xs-6">
+		<form ng-submit="addTimesheet()">
+			<div class="form-group">
+				<label>Date</label>
+				<div class="input-group">
+					<input type="text" class="form-control" ng-model="timesheet.Date" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="status.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" required />
+					<span class="input-group-btn">
+						<button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+					</span>
+				</div>
+				<span class="help-block">Select the date for this time sheet</span>
+			</div>
+			<div class="form-group">
+				<label>Hours</label>
+				<div class="input-group">
+					<div class="input-group-addon"><i class="glyphicon glyphicon-time"></i></div>
+					<input type="number" class="form-control" ng-model="timesheet.Duration" step="0.5" required />
+				</div>
+				<span class="help-block">Enter the number of hours for this time sheet</span>
+			</div>
+			
+			<button type="submit" class="btn btn-success btn-lg">Save</button>
+			
+		</form>
+	</div>
+</div>

@@ -289,6 +289,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\bower_components\" />
+    <Folder Include="Content\js\" />
+    <Folder Include="Content\partials\" />
+    <Folder Include="Content\typings\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
