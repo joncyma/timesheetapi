@@ -1,0 +1,37 @@
+<div class="jumbotron">
+	<h1>Timesheets</h1>
+	<p>Easily view and log your timesheets below</p>
+</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th class="col-xs-2">User</th>
+			<th class="col-xs-4">Date</th>
+			<th class="col-xs-4">Hours logged</th>
+			<th class="col-xs-2">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="timesheet in timesheets">
+			<td>{{timesheet.User}}</td>
+			<td>{{timesheet.Date | date:'dd MMM yy'}}</td>
+			<td>{{timesheet.Duration}} hrs</td>
+			<td>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Actions <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Edit</a></li>
+						<li><a ng-click="delete(timesheet)">Delete</a></li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<a href="#/add" class="btn btn-lg btn-primary">Add time</a>
+</p>

@@ -75,6 +75,6 @@ c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\Times
 c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\obj\Debug\TimesheetApiApplication.csprojResolveAssemblyReference.cache
 c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\obj\Debug\TimesheetApiApplication.dll
 c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\obj\Debug\TimesheetApiApplication.pdb
-C:\Users\Jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Cors.dll
-C:\Users\Jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Http.Cors.dll
-C:\Users\Jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Http.Cors.xml
+c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Cors.dll
+c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Http.Cors.dll
+c:\users\jon\documents\visual studio 2015\Projects\TimesheetApiApplication\TimesheetApiApplication\bin\System.Web.Http.Cors.xml
