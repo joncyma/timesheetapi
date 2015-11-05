@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:jon-max-db-dev-01.database.windows.net,1433;Database=jonmaxdev01;User ID=dbuser@jon-max-db-dev-01;Password=Wk658uk7!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="c:\\users\\jon\\documents\\visual\ studio\ 2015\\Projects\\TimesheetApiApplication\\TimesheetApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:vqup0xivxl.database.windows.net,1433;Database=timesheets;User ID=dbuser@vqup0xivxl;Password=Wk658uk7!;Trusted_Connection=False;Encrypt=True;Connection Timeout=10;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jon\\documents\\visual\ studio\ 2015\\Projects\\TimesheetApiApplication\\TimesheetApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="TimesheetContext-Web.config Connection String" description="TimesheetContext Connection String used in web.config by the application to access the database." defaultValue="TimesheetContext_ConnectionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="c:\\users\\jon\\documents\\visual\ studio\ 2015\\Projects\\TimesheetApiApplication\\TimesheetApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TimesheetContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jon\\documents\\visual\ studio\ 2015\\Projects\\TimesheetApiApplication\\TimesheetApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TimesheetContext']/@connectionString" />
   </parameter>
 </parameters>

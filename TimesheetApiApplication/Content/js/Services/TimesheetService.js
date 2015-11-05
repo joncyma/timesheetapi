@@ -5,7 +5,7 @@ var timesheetServices = angular.module('timesheetServices', ['ngResource']);
 
 timesheetServices.factory('Timesheet', ['$resource',
 	function ($resource) {
-		return $resource('http://timesheetapiapplication.azurewebsites.net/api/Timesheets', {}, {
+		return $resource('/api/Timesheets', {}, {
 			query: { method: 'GET', params: {}, isArray: true }
 		});
 	}]);
